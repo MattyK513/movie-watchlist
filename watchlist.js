@@ -11,7 +11,7 @@ document.addEventListener('click', e => {
 function renderMovieEntry(movieData) {
     const {Title, Runtime, Genre, imdbRating, imdbID} = movieData;
     let {Poster, Plot} = movieData;
-    if (Poster === "N/A") {Poster = "images/background-ensmalled.png"};
+    if (Poster === "N/A") {Poster = "images/vid-cam.png"};
     if (Plot === "N/A") {Plot = "Plot summary not available."}
     watchlistContainer.innerHTML += `
     <div class="search-result">
