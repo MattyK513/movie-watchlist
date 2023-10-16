@@ -117,12 +117,14 @@ a {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .search-bar {
     display: flex;
     justify-content: center;
     margin-top: -1em;
+    position: relative;
     z-index: 2;
 }
 
