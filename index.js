@@ -35,8 +35,8 @@ function searchDatabase(resultPage) {
     fetch(`https://www.omdbapi.com/?apikey=52568e5d&s=${searchInput.value}&page=${resultPage}`)
     .then(res => res.json())
     .then(data => {
-        renderPagination(parseInt(data.totalResults))
         if (data.Response === "True") {
+            renderPagination(parseInt(data.totalResults))
             searchResultsContainer.innerHTML = ``;
             data.Search.map(movie => {
                 fetch(`https://www.omdbapi.com/?apikey=52568e5d&i=${movie.imdbID}`)
