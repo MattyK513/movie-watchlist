@@ -1,13 +1,4 @@
 const watchlistContainer = document.getElementById("watchlist-container");
-const dummyMovie = {
-    Runtime: "69 min",
-    Genre: "Shite",
-    Title: "Your momma",
-    imdbRating: "6.9",
-    imdbID: "tt12345678",
-    Poster: "images/background.jpg",
-    Plot: "Your dad"
-}
 let currentPage = 1;
 
 document.addEventListener('click', e => {
