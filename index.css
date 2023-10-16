@@ -244,7 +244,6 @@ button, label, input {
         padding: 2em 4em;
     }
     .heading {
-        color: red;
         font-size: 5rem;
     }
     .hero a {
@@ -275,26 +274,21 @@ button, label, input {
         font-size: 2.0rem;
         padding-top: 15px;
     }
-
     .fa-star {
         font-size: 1.25rem;
         margin: 0 10px 0 26px;
     }
-
     .movie-rating {
         font-size: 1.25rem;
     }
-
     .movie-genre-container {
         font-size: 1.25rem;
         gap: 1.6em;
         margin: 10px 0;
     }
-
     .movie-plot {
         font-size: 1.5rem;
     }
-
     .add-btn {
         font-size: 20px;
         font-weight: 900;
