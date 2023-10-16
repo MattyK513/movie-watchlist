@@ -56,7 +56,7 @@ function searchDatabase(resultPage) {
 function renderMovies(movieData) {
     const {Title, Runtime, Genre, imdbRating, imdbID} = movieData;
     let {Poster, Plot} = movieData;
-    if (Poster === "N/A") {Poster = "images/background-ensmalled.png"};
+    if (Poster === "N/A") {Poster = "images/vid-cam.png"};
     if (Plot === "N/A") {Plot = "Plot summary not available."}
     searchResultsContainer.innerHTML += `
     <div class="search-result">
