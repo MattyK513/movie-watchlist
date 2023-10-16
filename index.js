@@ -5,6 +5,7 @@ const pagination = document.getElementById('pagination');
 let currentPage = 1;
 
 searchBtn.addEventListener('click', () => {
+    currentPage = 1;
     searchDatabase(currentPage);
 });
 
