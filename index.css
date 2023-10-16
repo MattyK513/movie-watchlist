@@ -202,6 +202,14 @@ button, label, input {
     cursor: pointer;
 }
 
+a:active, label:active{
+    color: #787878;
+}
+
+.add-btn:active {
+    background-color: #787878;
+}
+
 /* Utility */
 
 .hidden {
