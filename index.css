@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0E0E0E;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Typography */
+
+
+.hero a {
+    font-size: 0.875rem;
+    font-weight: bold;
+    opacity: 1;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 2.625rem;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.fa-film {
+    font-size: 6rem;
+    color: #2E2E2F;
+    margin: 210px auto 0;
+}
+
+.pre-search-text {
+    color: #2E2E2F;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.movie-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+}
+
+.fa-star {
+    font-size: 0.75rem;
+    color: #FEC654;
+    margin: 0 5px 0 14px;
+}
+
+.movie-rating {
+    font-size: 0.75rem;
+}
+
+.movie-genre-container {
+    font-size: 0.75rem;
+    gap: 1.5em;
+}
+
+.movie-plot {
+    font-size: 0.875rem;
+    color: #A5A5A5;
+    text-align: left;
+    line-height: 1.45em;
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.add-btn {
+    border-radius: 100%;
+    border: none;
+    background-color: whitesmoke;
+    color: #0E0E0E;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.empty-container-text {
+    margin-top: 175px;
+    color: #787878;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.add-movies-text {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+/* Layout */
+
+.hero {
+    background-color: #3a3a3a;
+    color: whitesmoke;
+    padding: 1.8em 2.625em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: -1em;
+    z-index: 2;
+}
+
+.search-bar button {
+    width: 120px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: #4B4B4B;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0 6px 6px 0;
+}
+
+.fa-search {
+    background-color: #2E2E2F;
+    color: #9CA3AF;
+    align-self: center;
+    padding: 9px 13px;
+    font-size: 1.25rem;
+    border-radius: 6px 0 0 6px;
+}
+
+input {
+    background-color: #2E2E2F;
+    color: #9CA3AF;
+    border: none;
+    padding: 9px 13px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.movie-list {
+    text-align: center;
+    min-height: 575px;
+    padding: 35px 0;
+    margin: 0 2em;
+}
+
+.poster {
+    width: 100px;
+    height: 148px;
+    margin-right: 1.5em;
+}
+
+.search-result {
+    display: flex;
+    padding: 1em 0;
+}
+
+.movie-title-container, .movie-genre-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pagination {
+    text-align: center;
+    margin: -1.75em 0 1em;
+}
+
+.pagination-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 5px 10px;
+    color: #0E0E0E;
+}
+
+/* Utility */
+
+.hidden {
+    display: none;
+}
+
+.highlighted {
+    background-color: #FEC654;
+}
+
+/* Media queries */
+
+@media (min-width: 551px) {
+}
