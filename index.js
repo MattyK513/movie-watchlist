@@ -16,7 +16,7 @@ document.addEventListener('click', e => {
             .then(data => {
                 const {Title, Runtime, Genre, imdbRating, imdbID} = data;
                 let {Poster, Plot} = data;
-                if (Poster === "N/A") {Poster = "images/background-ensmalled.png"};
+                if (Poster === "N/A") {Poster = "images/vid-cam.png"};
                 if (Plot === "N/A") {Plot = "Plot summary not available."}
                 const movieDataString = JSON.stringify({Title, Runtime, Genre, imdbRating, imdbID, Poster, Plot});
                 localStorage.setItem(`${imdbID}`, movieDataString);
